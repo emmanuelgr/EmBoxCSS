@@ -5,6 +5,7 @@
 .fbox-v{
   display: flex;
   flex-direction: column;
+  height:100%;
 }
 .fbox-h.wra,
 .fbox-v.wrap{
