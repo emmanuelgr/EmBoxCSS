@@ -7,7 +7,7 @@
   flex-direction: column;
   height:100%;
 }
-.fbox-h.wra,
+.fbox-h.wrap,
 .fbox-v.wrap{
   flex-wrap: wrap;
 }
@@ -77,4 +77,32 @@
 .fbox-h .flex5 ,
 .fbox-v .flex5 {
   flex: 5;
+}
+.fbox-h .flex6 ,
+.fbox-v .flex6 {
+  flex: 6;
+}
+.fbox-h .flex7 ,
+.fbox-v .flex7 {
+  flex: 7;
+}
+.fbox-h .flex8 ,
+.fbox-v .flex8 {
+  flex: 8;
+}
+.fbox-h .flex9 ,
+.fbox-v .flex9 {
+  flex: 9;
+}
+.fbox-h .flex10 ,
+.fbox-v .flex10 {
+  flex: 10;
+}
+.fbox-h .flex11 ,
+.fbox-v .flex11 {
+  flex: 11;
+}
+.fbox-h .flex12 ,
+.fbox-v .flex12 {
+  flex: 12;
 }
