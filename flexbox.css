@@ -1,12 +1,79 @@
-.flx-h{
-  display: flex !important;
+.fbox-h{
+  display: flex;
   flex-direction: row;
 }
-.flx-w{
-  display: flex !important;
+.fbox-v{
+  display: flex;
   flex-direction: column;
 }
-.flx-w.wrap,
-.flx-h.wrap{
+.fbox-h.wra,
+.fbox-v.wrap{
   flex-wrap: wrap;
+}
+.fbox-h.justify-start,
+.fbox-v.justify-start {
+  justify-content: flex-start;
+}
+
+.fbox-h.justify-center,
+.fbox-v.justify-center {
+  justify-content: center;
+}
+
+.fbox-h.justify-end,
+.fbox-v.justify-end {
+  justify-content: flex-end;
+}
+
+.fbox-h.justify-between,
+.fbox-v.justify-between {
+  justify-content: space-between;
+}
+.fbox-h.justify-around ,
+.fbox-v.justify-around {
+  justify-content: space-around;
+}
+
+
+.fbox-h.align-start,
+.fbox-v.align-start {
+  align-items: flex-start;
+}
+.fbox-h.align-center,
+.fbox-v.align-center {
+  align-items: center;
+}
+.fbox-h.align-end,
+.fbox-v.align-end {
+  align-items: flex-end;
+}
+.fbox-h.align-baseline,
+.fbox-v.align-baseline {
+  align-items: baseline;
+}
+.fbox-h.align-stretch,
+.fbox-v.align-stretch {
+  align-items: stretch;
+}
+
+
+.fbox-h .flex1 ,
+.fbox-v .flex1 {
+  flex: 1;
+}
+.fbox-h .flex2 ,
+.fbox-v .flex2 {
+  flex: 2;
+}
+.fbox-h .flex3 ,
+.fbox-v .flex3 {
+  flex: 3;
+}
+.fbox-h .flex4 ,
+.fbox-v .flex4 {
+  flex: 4;
+}
+.fbox-h .flex5 ,
+.fbox-v .flex5 {
+  flex: 5;
 }
