@@ -1,0 +1,12 @@
+.flx-h{
+  display: flex !important;
+  flex-direction: row;
+}
+.flx-w{
+  display: flex !important;
+  flex-direction: column;
+}
+.flx-w.wrap,
+.flx-h.wrap{
+  flex-wrap: wrap;
+}
