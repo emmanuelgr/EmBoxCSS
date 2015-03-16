@@ -1,35 +1,9 @@
-
-.relative {
-  position: relative;
-}
-.left {
-  float: left !important;
-}
-
-.right {
-  float: right !important;
-}
-
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-
 .hide {
   display: none; }
 
 .invisible {
   visibility: hidden; }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-.overflow-auto {
-  overflow: auto;
-}
 .noselect {
   user-select: none;
 }
