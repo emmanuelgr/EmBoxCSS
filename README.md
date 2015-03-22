@@ -1,3 +1,3 @@
 # css helpers
 import within less file
-@import (inline) "EmBoxCSS/xxx.css";
+@import (inline "EmBoxCSS/xxx.css";
