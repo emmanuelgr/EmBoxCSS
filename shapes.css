@@ -1,0 +1,18 @@
+.round0{
+  border-radius: 0;
+}
+.round1{
+  border-radius: 10%;
+}
+.round2{
+  border-radius: 20%;
+}
+.round3{
+  border-radius: 30%;
+}
+.round4{
+  border-radius: 40%;
+}
+.round5{
+  border-radius: 50%;
+}

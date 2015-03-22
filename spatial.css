@@ -5,6 +5,7 @@
 .fixed { position: fixed; }
 .relative { position: relative; }
 .absolute { position: absolute; }
+.absolute { position: absolute; }
 /*------------------*/
 .left { float: left; }
 .right { float: right; }
@@ -15,3 +16,8 @@
 .clearfix:after {
   clear: both;
 }
+
+
+.inline{ display: inline;}
+.inline-block{ display: inline-block;}
+.block{ display: block;}
